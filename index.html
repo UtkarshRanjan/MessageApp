@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particles-container" id="particles"></div>
+    <div class="container">
+        <div class="card fade-in glass-effect">
+            <h1 class="greeting">Hi <span id="receiver-name"></span><span class="cursor">|</span>!</h1>
+            <p class="index-message" id="index-message"></p>
+            <button class="next-button" onclick="goToNextPage()">
+                Curious? Continue
+                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
